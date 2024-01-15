@@ -20,7 +20,7 @@ The yields from the literature are processed by the following procedure:
 
 The processed yields are named `Short Name - Model Specifier.csv`
 
-All the python scripts are provided here, such the python script `Nomoto2013-Yields-Conversion.ipynb` is used to process the yields from [Nomoto et al. (2013)](https://www.annualreviews.org/doi/10.1146/annurev-astro-082812-140956).
+All the python scripts that used to get the processed yields are provided here, such the python script `Nomoto2013-Yields-Conversion.ipynb` is used to process the yields from [Nomoto et al. (2013)](https://www.annualreviews.org/doi/10.1146/annurev-astro-082812-140956).
 
 # Directory structure
 
