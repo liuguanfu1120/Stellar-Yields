@@ -1,3 +1,8 @@
+# A brief introduction
+
+It is the collected and processed yields from the literature.
+Please feel free to use it.
+
 # How to process the original yields
 
 The yields from the literature are processed by the following procedure:
