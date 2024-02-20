@@ -17,10 +17,18 @@ The yields from the literature are processed by the following procedure:
 | [Nomoto et al. (2013)](https://www.annualreviews.org/doi/10.1146/annurev-astro-082812-140956)   | N13        |
 | [Iwamoto et al. (1998)](https://iopscience.iop.org/article/10.1086/313278) | I98        |
 | [Sukhbold et al. (2016)](https://iopscience.iop.org/article/10.3847/0004-637X/821/1/38) | S16        |
+|[Karakas (2010)](https://academic.oup.com/mnras/article-lookup/doi/10.1111/j.1365-2966.2009.16198.x) | K10        |
 
-The processed yields are named `Short Name - Model Specifier.csv`
+The processed yields are named something like `S16W18-0.0200-SNcc-total.csv`:
+- `S16` is the short name of the literature, i.e., [Sukhbold et al. (2016)](https://iopscience.iop.org/article/10.3847/0004-637X/821/1/38).
+- `W18` is one of the models implemented in S16
+- `0.0200` is the initial metallicity, which is a four-digit float
+- `SNcc` is the type of yield, which is the core-collapse supernovae
+- `total` means that it is the total yields, namely, the ejecta or the wind, while the `net` is the net yields, i.e., the ejecta minus the initial abundances.
+  
+As for Type Ia supernova, the initial metallicity in the names of yields files is "X.XXXX".
 
-All the python scripts that used to get the processed yields are provided here, such the python script `Nomoto2013-Yields-Conversion.ipynb` is used to process the yields from [Nomoto et al. (2013)](https://www.annualreviews.org/doi/10.1146/annurev-astro-082812-140956).
+All the Python scripts used to get the processed yields are provided here, such as the Python script `Nomoto2013-Yields-Conversion`.ipynb` is used to process the yields from [Nomoto et al. (2013)](https://www.annualreviews.org/doi/10.1146/annurev-astro-082812-140956).
 
 # Directory structure
 
@@ -54,7 +62,7 @@ $$
 \frac{1 M_{\odot}}{1 \mathrm{Da}},
 $$
 
-where $\mathrm{Da}$ is the dalton or unified atomic mass unit (symbols: Da or u), see [Dalton (unit)](https://en.wikipedia.org/wiki/Dalton_(unit)).
+where $\mathrm{Da}$ is the Dalton or unified atomic mass unit (symbols: Da or u), see [Dalton (unit)](https://en.wikipedia.org/wiki/Dalton_(unit)).å
 
 $$
 1\mathrm{Da} = 1.660\times 10^{-27} ~ \mathrm{kg}.
