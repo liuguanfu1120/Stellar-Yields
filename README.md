@@ -15,7 +15,7 @@ The yields from the literature are processed by the following procedure:
 | Literature             | Short Name |
 |------------------------|------------|
 | [Nomoto et al. (2013)](https://www.annualreviews.org/doi/10.1146/annurev-astro-082812-140956)   | N13        |
-| [Iwamoto et al. (1998)](https://iopscience.iop.org/article/10.1086/313278) | I98        |
+| [Iwamoto et al. (1999)](https://iopscience.iop.org/article/10.1086/313278) | I99        |
 | [Sukhbold et al. (2016)](https://iopscience.iop.org/article/10.3847/0004-637X/821/1/38) | S16        |
 |[Karakas (2010)](https://academic.oup.com/mnras/article-lookup/doi/10.1111/j.1365-2966.2009.16198.x) | K10        |
 
